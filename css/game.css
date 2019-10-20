@@ -1,0 +1,101 @@
+
+@font-face {
+	src: url('../fonts/ShadowsIntoLightTwo-Regular.ttf');
+	font-family: 'Shadows';
+}
+
+
+.col_empt {
+	min-height: 12vh;
+    margin: 1px 1px 1px 1px;
+}
+
+.box-logo {
+	background-color: black;
+	min-height: 50vh;
+	width: auto;
+	max-width: 20vw;
+    margin: 1px 1px 30px 1px;
+    line-height: 1vh;
+    box-shadow:0 1px 4px rgba(0, 0, 0, .3),-23px 0 20px -23px rgba(0, 0, 0, .8),23px 0 20px -23px rgba(0, 0, 0, .8),0 0 40px rgba(0, 0, 0, .1) inset;
+	border-radius: 10px;
+}
+
+.digit_logo {
+    font-family: 'Shadows';
+    color: white;
+    font-size: 300px;
+    text-align: center;
+}
+
+.text_logo {
+	 font-family: 'Shadows';
+	 font-size: 50px;
+     color: white;
+     text-align: center;
+}
+
+.btn {
+	margin: 15px;
+}
+
+.btn-dark {
+    font-family: 'Shadows';
+    color: white;
+    background-color: black;
+    border-color: #343a40;
+}
+
+.box-about {
+	background-color: black;
+	min-height: 20vh;
+	max-width: 50vw;
+    margin: 1px 1px 30px 1px;
+    line-height: 1vh;
+    box-shadow:0 1px 4px rgba(0, 0, 0, .3),-23px 0 20px -23px rgba(0, 0, 0, .8),23px 0 20px -23px rgba(0, 0, 0, .8),0 0 40px rgba(0, 0, 0, .1) inset;
+	border-radius: 10px;
+}
+
+.text_about {
+	 font-size: 15px;
+     color: white;
+     text-align: center;
+     margin-top: 30px;
+     letter-spacing: 1px;
+}
+
+
+.box-cnt {
+	background-color: orange;
+	min-height: 8vh;
+    margin: 1px 1px 1px 1px;
+    line-height: 10vh;
+}
+
+.cnt {
+  color: black;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 13vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.result {
+	margin: 12px 12px 12px 12px;
+}
